@@ -1,0 +1,11 @@
+{
+  "name": "Sama Bulletin",
+  "short_name": "Sama Bulletin",
+  "description": "Tes notes. Ta progression. Ton bulletin.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#EAF3FC",
+  "theme_color": "#1456A0",
+  "lang": "fr",
+  "icons": [{ "src": "/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }]
+}

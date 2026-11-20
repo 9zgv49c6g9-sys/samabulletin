@@ -1,0 +1,22 @@
+# Déploiement Render en un clic (Blueprint). Nécessite une instance payante pour le disque persistant.
+services:
+  - type: web
+    name: sama-bulletin
+    runtime: python
+    plan: starter
+    buildCommand: "echo no build needed"
+    startCommand: python3 server.py
+    healthCheckPath: /
+    envVars:
+      - key: SAMA_DATA_DIR
+        value: /var/data
+      - key: SAMA_SECURE_COOKIES
+        value: "1"
+      - key: SAMA_TRUST_PROXY
+        value: "1"
+      - key: SAMA_BASE_URL
+        sync: false
+    disk:
+      name: sama-data
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,640 @@
+{
+ "version": 1,
+ "levels": [
+  {
+   "id": "6e",
+   "label": "6e",
+   "cycle": "Collège",
+   "series": []
+  },
+  {
+   "id": "5e",
+   "label": "5e",
+   "cycle": "Collège",
+   "series": []
+  },
+  {
+   "id": "4e",
+   "label": "4e",
+   "cycle": "Collège",
+   "series": []
+  },
+  {
+   "id": "3e",
+   "label": "3e",
+   "cycle": "Collège",
+   "series": []
+  },
+  {
+   "id": "seconde",
+   "label": "Seconde",
+   "cycle": "Lycée",
+   "series": [
+    "L",
+    "S",
+    "STEG",
+    "T"
+   ]
+  },
+  {
+   "id": "premiere",
+   "label": "Première",
+   "cycle": "Lycée",
+   "series": [
+    "L1",
+    "L2",
+    "S1",
+    "S2",
+    "STEG",
+    "T1",
+    "T2"
+   ]
+  },
+  {
+   "id": "terminale",
+   "label": "Terminale",
+   "cycle": "Lycée",
+   "series": [
+    "L1",
+    "L2",
+    "S1",
+    "S2",
+    "STEG",
+    "T1",
+    "T2"
+   ]
+  }
+ ],
+ "subjects": {
+  "6e": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Histoire"
+   },
+   {
+    "name": "Géographie"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "Éducation physique et sportive (EPS)"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "5e": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Histoire"
+   },
+   {
+    "name": "Géographie"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "Éducation physique et sportive (EPS)"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "4e": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Histoire"
+   },
+   {
+    "name": "Géographie"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "Éducation physique et sportive (EPS)"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "3e": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Histoire"
+   },
+   {
+    "name": "Géographie"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "Éducation civique et morale"
+   },
+   {
+    "name": "Éducation physique et sportive (EPS)"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "seconde:L": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   },
+   {
+    "name": "Matières complémentaires de la filière",
+    "placeholder": true
+   }
+  ],
+  "seconde:S": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   },
+   {
+    "name": "Matières complémentaires scientifiques",
+    "placeholder": true
+   }
+  ],
+  "seconde:STEG": [
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Matières technologiques et économiques",
+    "placeholder": true
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "seconde:T": [
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Matières techniques",
+    "placeholder": true
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:L1": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:L2": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:S1": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:S2": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:STEG": [
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Matières de gestion",
+    "placeholder": true
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:T1": [
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Matières techniques",
+    "placeholder": true
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "premiere:T2": [
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Matières techniques",
+    "placeholder": true
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "terminale:L1": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "terminale:L2": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "terminale:S1": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "terminale:S2": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "SVT"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "terminale:STEG": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "Histoire-Géographie"
+   },
+   {
+    "name": "Comptabilité-Gestion"
+   },
+   {
+    "name": "Droit"
+   },
+   {
+    "name": "Informatique de gestion"
+   },
+   {
+    "name": "Management"
+   },
+   {
+    "name": "SES"
+   },
+   {
+    "name": "EPS"
+   }
+  ],
+  "terminale:T1": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "Génie mécanique"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ],
+  "terminale:T2": [
+   {
+    "name": "Français"
+   },
+   {
+    "name": "Anglais"
+   },
+   {
+    "name": "Mathématiques"
+   },
+   {
+    "name": "Philosophie"
+   },
+   {
+    "name": "Physique-Chimie"
+   },
+   {
+    "name": "Génie électrotechnique"
+   },
+   {
+    "name": "EPS"
+   },
+   {
+    "name": "Informatique"
+   }
+  ]
+ }
+}
